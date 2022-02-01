@@ -1,0 +1,374 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@700&display=swap');
+/* 
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+/* =-=-=-=-=-=-=-=-=-=
+Header Section CSS
+=-=-=-=-=-=-=-=-=-= */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.head-section{
+    background: url(images/bg-banner.png) no-repeat fixed center;
+    background-size: cover;
+    height: 150vh;
+    padding: 55px 0 77px 0;
+    
+}
+.logo-left img{
+    max-width: 100%;
+    height: auto;
+}
+.logo-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-right-img{}
+.logo-right-text p{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+}
+.navbar-section{
+   
+}
+.navbar-section ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-section ul li{
+    list-style: none;
+}
+.navbar-section ul li a{
+    font-size: 21px;
+    color: #3d2514;
+    margin-left: 40px;
+}
+.navbar-section ul li a:hover{
+    border-bottom: 4px solid black;
+}
+.banner-section{}
+.banner-section .b-left{
+    margin-top: 174px;
+}
+.banner-section .b-left p{
+    border: 4px dashed #3d2514;
+    display: inline-block;
+    font-size: 24px;
+    padding: 13px 8px;
+}
+.banner-section .b-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 114px; 
+    text-transform: uppercase;
+}
+.banner-section .b-left h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 56px; 
+    text-transform: uppercase;
+}
+.banner-section .b-left h2{}
+.banner-section .b-right{
+    position: relative;
+}
+.banner-section .b-right .b-img img{
+  width: 100%;
+  height: auto;
+}
+.banner-section .b-right .b-price{
+    position: absolute;
+    top: 520px;
+    left: 220px;
+    background: #bf2222;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-price-text{
+    border: 3px dashed white;
+    border-radius: 50%;
+    width: 149px;
+    height: 149px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b-price-text h2{
+    color: white;
+    font-size: 55px;
+}
+.b-price-text h2 span{
+    font-size: 22px;
+}
+.b-price-text p{
+   text-transform: uppercase;
+   font-size: 23px;
+   color: white;
+}
+/* =-=-=-=-=-=-=-=-=-=
+Service Section CSS
+=-=-=-=-=-=-=-=-=-= */
+.service-left{
+    background: url(images/p-left.png);
+    background-size: cover;
+    height: 470px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    margin-right: 45px;
+    
+}
+.service-left p{
+    font-size: 23px;
+    margin-left: 20px;
+    padding-top: 32px;
+    position: absolute;
+    top: 29px;
+}
+.service-left h3{
+    font-size: 40px;
+    margin-left: 20px;
+    position: absolute;
+    top: 90px;
+}
+.p-right-first{
+    background: url(images/p-right-1.png);
+    background-size: cover;
+    height: 220px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+.p-right-first p{
+    position: absolute;
+    top: 30px;
+}
+.p-right-first h3{
+    position: absolute;
+    top: 60px;
+}
+.p-right-second{
+    background: url(images/p-right-2.png);
+    background-size: cover;
+    height: 220px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+}
+.p-right-second p{
+    position: absolute;
+    top: 30px;
+}
+.p-right-second h3{
+    position: absolute;
+    top: 60px;
+}
+.p-right-first p,
+.p-right-second p{
+    font-size: 28px;
+}
+.p-right-first h3,
+.p-right-second h3{
+    font-size: 40px;
+}
+.bottom-ancor{
+    text-align: center;
+    margin-right: 140px;
+    padding-top: 30px;
+}
+.service-section a{
+    font-size: 25px;
+    color: #3d2514;
+    background-color: #ffc045;
+    padding: 14px 25px;
+}
+/* =-=-=-=-=-=-=-=-=-=
+Order Section CSS
+=-=-=-=-=-=-=-=-=-= */
+.order-section{
+    padding: 31px 0px 121px 0;
+}
+.section-title{
+    text-align: center;
+}
+.section-title h2{
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-right: 100px;
+}
+.section-title p{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 65px;
+}
+.text{
+    text-align: center;
+    margin-top: 65px;
+}
+.text h3{
+    font-size: 38px;
+}
+.text p{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    text-align: center;
+    margin-top: 45px;
+}
+.button a{
+    background-color: #bf2222;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 17px;
+    color: white;
+    padding: 15px 30px;
+}
+/* =-=-=-=-=-=-=-=-=-=
+Bottom Section CSS
+=-=-=-=-=-=-=-=-=-= */
+.bottom-section{
+    
+}
+/* Carousel CSS */
+.carousel-caption h5{
+    font-size: 35px;
+}
+.carousel-section{
+    box-shadow: 0 0px 5px black;
+}
+.carousel-indicators button{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    background-color: #ffc045 !important;
+}
+.carousel{
+    padding: 15px;
+}
+.carousel-item .col-md-4{
+    margin-top: 20px;
+}
+.col-md-4 h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 42px;
+}
+.col-md-4 h2 span{
+    font-size: 29px;
+    color: #3d3d3d;
+}
+.col-md-4 p{
+    font-size: 21px;
+}
+.col-md-8 p{
+    font-size: 25px;
+}
+/* Reservation CSS */
+.reservation-section{
+    background: url(images/reservation-bg.png) no-repeat center;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    text-align: center;
+    margin-top: 69px;
+    padding: 125px 0 0 0;
+    
+}
+.reservation-section h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    padding-bottom: 65px;
+}
+.reservation-section h2 span{
+    font-size: 29px;
+    color: #3d2514;
+}
+.reservation-section form div{
+    margin-bottom: 26px;
+}
+::placeholder{
+    font-size: 20px;
+}
+.reservation-section input[type='submit']{
+    background: rgb(191, 33, 33);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 18px;
+    color: white;
+}
+.reservation-section input[type='text'],
+.reservation-section input[type='email'],
+.reservation-section input[type='number']{
+    outline: 2px solid #474040;
+}
+.reservation-section input:focus{
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(191, 33, 33, 1);
+    
+}
+/* contact */
+.contact-section{
+    background: url(images/contact.png) no-repeat fixed center;
+    background-size: cover;
+    color: white;
+    padding:  40px 40px 20px 40px;
+    box-shadow: 0 0 5px black;
+    margin-bottom: 50px;
+}
+.content{
+    width: 60%;
+}
+.contact-section .col-md-8 p{
+    padding-bottom: 157px;
+}
+.logo{
+    padding: 73px 0 43px 0;
+}
+.logo img{
+    width: 300px;
+    height: auto;
+}
+.contact-section .col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.contact-section .col-md-4 i{
+    color: white;
+    font-size: 15px;
+}
+.copyright p{
+    font-size: 22px;
+}
+.contact-icon a{
+    color: black;
+    background: white;
+    width: 30px;
+    height: 30px; 
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.contact-icon a i{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.col-md-5{
+    text-align: right;
+}
